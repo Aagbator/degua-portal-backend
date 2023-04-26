@@ -15,6 +15,7 @@
     "dev": "NODE_ENV=development nodemon src/index.ts",
     "prod": "NODE_ENV=production node src/index.js",
     "seed": "npx sequelize db:seed:all",
+    "seed-undo": "npx sequelize db:seed:undo:all",
     "build": "npx tsc",
     "clean": "rm -rf ./dist",
     "apply-seeders": "node -r dotenv-flow/config ./node_modules/.bin/sequelize db:seed:all",

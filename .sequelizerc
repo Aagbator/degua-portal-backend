@@ -2,8 +2,13 @@ const path = require('path');
 
 module.exports = {
     'config': path.resolve('dist/database/config', 'development.json'),
+    // 'config': path.resolve('src/database/config', 'development.json'),
     'models-path': path.resolve('dist/database', 'models'),
     'seeders-path': path.resolve('dist/database', 'seeders'),
-    'debug': true
+    'debug': true,
+
+    // 'migrations-compiled-path': path.resolve('dist/database', 'migrations'),
+    // 'seeders-source-path': path.resolve('dist/database', 'seeders'),
+    // 'seeders-compiled-path': path.resolve('seeders'),
     //   'migrations-path': path.resolve('db', 'migrations')
 };
